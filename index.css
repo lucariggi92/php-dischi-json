@@ -60,7 +60,7 @@ footer {
 }
 
 .powered-by span {
-    color: #FF8C00;
+
     font-weight: bold;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
 }
@@ -104,7 +104,7 @@ footer {
     height: 220px;       
     object-fit: cover;   
     padding: 10px;       
-    background-color: #FF8C00; 
+   
 }
 
 /* Corpo della card */
