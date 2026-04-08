@@ -81,57 +81,118 @@ footer {
 
 /* Card in stile Vinile anni '70 */
 .card {
-    height: 420px; 
     background-color: #fdf5e6; 
     border: 4px solid #3e2723; 
     border-radius: 0;         
     display: flex;
     flex-direction: column;
-    overflow: hidden;    
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    box-shadow: 10px 10px 0px rgba(62, 39, 35, 0.2); 
+    box-shadow: 8px 8px 0px rgba(62, 39, 35, 0.2); 
 }
 
 .card:hover {
-    transform: scale(1.05) ; 
-    box-shadow: 15px 15px 0px #3e2723;   
-    border-color: #3e2723;
+    transform: translateY(-5px);
+    box-shadow: 12px 12px 0px #3e2723;   
 }
 
-/* Immagine della copertina */
 .card-img-top {
-    height: 220px;       
+    height: 180px;
+    width: 100%;
     object-fit: cover;   
-    padding: 10px;       
-   
+    padding: 10px 10px 0 10px;
 }
 
-/* Corpo della card */
 .card-body {
-    padding: 15px;
-    background-color: #fdf5e6;
+    padding: 10px 15px;
     text-align: center;
 }
 
 .card-title {
     font-family: "Cooper Black", sans-serif; 
     color: #BF360C; 
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-   overflow: hidden;
-
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
+.card-text {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
 
-/* Lista dei dettagli */
+.list-group {
+    padding: 0 10px 10px 10px;
+}
+
 .list-group-item {
     background-color: #ffca28; 
     color: #3e2723;
-    font-weight: 900;
+    font-weight: 800;
     border: 2px dashed #3e2723; 
-    margin: 10px;
-    border-radius: 5px;
-    padding: 2px;
- 
+    margin: 2px 0;
+    padding: 2px 8px;
+    font-size: 0.85rem;
+    border-radius: 4px;
+}
+
+/* form */
+
+.vinyl-form-box {
+    max-width: 500px;
+    background-color: #fdf5e6; 
+    border: 5px solid #3e2723; 
+    padding: 25px;
+    box-shadow: 12px 12px 0px #FF8C00; 
+
+
+.form-title-70s {
+    font-family: "Cooper Black", serif;
+    font-size: 1.5rem;
+    color: #3e2723;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #FF8C00;
+    padding-bottom: 10px;
+}
+
+
+.input-70s {
+    border: 3px solid #3e2723;
+    border-radius: 0; 
+    background-color: #fff;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 0.8rem;
+    color: #3e2723;
+    text-transform: uppercase;
+}
+
+.input-70s:focus {
+    border-color: #FF8C00;
+    box-shadow: none;
+    background-color: #fffaf0;
+}
+
+/* Il bottone che spacca */
+.btn-70s-submit {
+    width: 100%;
+    background-color: #FF8C00;
+    color: #3e2723;
+    font-family: "Cooper Black", serif;
+    font-size: 1.1rem;
+    border: 3px solid #3e2723;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-70s-submit:hover {
+    background-color: #3e2723;
+    color: #FF8C00;
+    transform: translate(-3px, -3px);
+    box-shadow: 6px 6px 0px #FF8C00;
 }

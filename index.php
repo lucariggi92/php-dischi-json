@@ -21,6 +21,7 @@ require_once "./functions.php";
 
 
         <div class="bg-dischi">
+            
             <div class="row">
 
                 <?php
@@ -34,10 +35,10 @@ require_once "./functions.php";
 
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $disco["titolo"]?></h5>
-                            <p class="card-text"><? echo $disco["artista"]?></p>
+                            <p class="card-text"><?php echo $disco["artista"] ?></p>
                         </div>
 
-                        <ul class="list-group list-group-flush">
+                        <ul class="list-group">
                             <li class="list-group-item">Anno: <?php echo $disco['anno']; ?></li>
                             <li class="list-group-item"><?php echo $disco['genere']; ?></li>
                                             </ul>
@@ -48,10 +49,40 @@ require_once "./functions.php";
                     
 
             </div>
+
+            
             
 
         </div>
 
+     <div class="container d-flex justify-content-center mt-5">
+    <div class="vinyl-form-box">
+        <h2 class="form-title-70s">AGGIUNGI IL TUO DISCO</h2>
+        
+        <form action="crea_disco.php" method="POST" class="row g-2">
+            <div class="col-6">
+                <input type="text" name="titolo" class="form-control input-70s" placeholder="TITOLO" required>
+            </div>
+            <div class="col-6">
+                <input type="text" name="artista" class="form-control input-70s" placeholder="ARTISTA" required>
+            </div>
+
+            <div class="col-3">
+                <input type="number" name="anno" class="form-control input-70s" placeholder="ANNO" required>
+            </div>
+            <div class="col-4">
+                <input type="text" name="genere" class="form-control input-70s" placeholder="GENERE" required>
+            </div>
+            <div class="col-5">
+                <input type="url" name="cover" class="form-control input-70s" placeholder="URL COVER">
+            </div>
+
+            <div class="col-12 mt-3">
+                <button type="submit" class="btn-70s-submit">REGISTRA HIT 🎸</button>
+            </div>
+        </form>
+    </div>
+</div>
   
         <footer>
         <div class="container">
