@@ -16,7 +16,7 @@ require_once "./functions.php";
 
 
     <div class="container">
-        <h1 class="text-center mt-4">IL TUO NEGOZIO DI DISCHI</h1>
+        <h1 class="text-center mt-4">Vinyl Heaven</h1>
 
 
 
@@ -57,9 +57,9 @@ require_once "./functions.php";
 
      <div class="container d-flex justify-content-center mt-5">
     <div class="vinyl-form-box">
-        <h2 class="form-title-70s">AGGIUNGI IL TUO DISCO</h2>
+        <h2 class="form-title-70s">AGGIUNGI ALLA TUA COLLEZIONE</h2>
         
-        <form action="crea_disco.php" method="POST" class="row g-2">
+        <form action="server.php" method="POST" class="row g-2">
             <div class="col-6">
                 <input type="text" name="titolo" class="form-control input-70s" placeholder="TITOLO" required>
             </div>
@@ -74,7 +74,7 @@ require_once "./functions.php";
                 <input type="text" name="genere" class="form-control input-70s" placeholder="GENERE" required>
             </div>
             <div class="col-5">
-                <input type="url" name="cover" class="form-control input-70s" placeholder="URL COVER">
+                <input type="url" name="cover" class="form-control input-70s" placeholder="URL COVER" required">
             </div>
 
             <div class="col-12 mt-3">

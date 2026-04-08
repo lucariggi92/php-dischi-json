@@ -1,58 +1,10 @@
-[
-    {
-        "titolo": "The Dark Side of the Moon",
-        "artista": "Pink Floyd",
-        "cover": "./img/1.png",
-        "anno": 1973,
-        "genere": "Progressive Rock"
-    },
-    {
-        "titolo": "What's Going On",
-        "artista": "Marvin Gaye",
-        "cover": "./img/2.jpg",
-        "anno": 1971,
-        "genere": "Soul"
-    },
-    {
-        "titolo": "Rumours",
-        "artista": "Fleetwood Mac",
-        "cover": "./img/3.jpg",
-        "anno": 1977,
-        "genere": "Soft Rock"
-    },
-    {
-        "titolo": "Abbey Road",
-        "artista": "The Beatles",
-        "cover": "./img/4.jpg",
-        "anno": 1969,
-        "genere": "Rock"
-    },
-    {
-        "titolo": "Discovery",
-        "artista": "Daft Punk",
-        "cover": "./img/5.jpg",
-        "anno": 2001,
-        "genere": "Electronic"
-    },
-    {
-        "titolo": "Hotel California",
-        "artista": "Eagles",
-        "cover": "./img/6.jpg",
-        "anno": 1976,
-        "genere": "Classic Rock"
-    },
-    {
-        "titolo": "Innervisions",
-        "artista": "Stevie Wonder",
-        "cover": "./img/7.webp",
-        "anno": 1973,
-        "genere": "Funk / Soul"
-    },
-    {
-        "titolo": "Unknown Pleasures",
-        "artista": "Joy Division",
-        "cover": "./img/8.jpg",
-        "anno": 1979,
-        "genere": "Post-Punk"
-    }
-]
+[{"titolo":"The Dark Side of the Moon","artista":"Pink Floyd","cover":".\/img\/1.png","anno":1973,"genere":"Progressive Rock"},
+{"titolo":"What's Going On","artista":"Marvin Gaye","cover":".\/img\/2.jpg","anno":1971,"genere":"Soul"},
+{"titolo":"Rumours","artista":"Fleetwood Mac","cover":".\/img\/3.jpg","anno":1977,"genere":"Soft Rock"},
+{"titolo":"Abbey Road","artista":"The Beatles","cover":".\/img\/4.jpg","anno":1969,"genere":"Rock"},
+{"titolo":"Discovery","artista":"Daft Punk","cover":".\/img\/5.jpg","anno":2001,"genere":"Electronic"},
+{"titolo":"Hotel California","artista":"Eagles","cover":".\/img\/6.jpg","anno":1976,"genere":"Classic Rock"},
+{"titolo":"Innervisions","artista":"Stevie Wonder","cover":".\/img\/7.webp","anno":1973,"genere":"Funk \/ Soul"},
+{"titolo":"Unknown Pleasures","artista":"Joy Division","cover":".\/img\/8.jpg","anno":1979,"genere":"Post-Punk"},
+
+{"titolo":"test","artista":"test","cover":"./img/8.jpg","anno":"1992","genere":"m"}]
